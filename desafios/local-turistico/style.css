@@ -1,0 +1,89 @@
+/* Global Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.warning {
+  font-size: 16px;
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Body */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.warning-and-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Section */
+section {
+  margin-bottom: 20px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.infos p {
+  margin-bottom: 20px;
+}
+
+.destinations-introduction .destinations {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* List */
+.history {
+  color: blue;
+}
+
+.couples {
+  color: purple;
+}
+
+.family {
+  color: red;
+}
+
+.budget {
+  color: orange;
+}
+
+footer p {
+  text-align: center;
+}
