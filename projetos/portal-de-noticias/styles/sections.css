@@ -11,7 +11,7 @@
     &::before {
       content: "";
       position: absolute;
-      inset: 0;
+      inset: 0; /* define top, right, bottom e left como 0 */
       top: 50%;
       background: linear-gradient(180deg, transparent 0%, #020617 100%);
     }
